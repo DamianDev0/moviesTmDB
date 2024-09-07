@@ -1,0 +1,50 @@
+.room {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.user {
+  width: 200px;
+  height: 150px;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.control {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  background: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-phone {
+  background: #ff4d4d;
+}
+
+.btn-phone-active {
+  background: #ff1a1a;
+}
